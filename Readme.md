@@ -1,15 +1,17 @@
-react-wistia-embed
+# react-wistia-embed
 react-wistia-embed is a React component library that provides a simple way to embed Wistia videos in your React applications. The library includes a WistiaEmbed component that allows you to embed videos with custom settings such as responsive sizing, padding, and fixed dimensions. The component is built with TypeScript, ensuring type safety and ease of use. With react-wistia-embed, you can easily add Wistia videos to your React applications without having to write complex embed code.
 
-Installation
+## Installation
 To use react-wistia-embed in your React application, you can install it using NPM or Yarn:
 
-Copy code
+## Copy code
+```
 npm install react-wistia-embed
 
 # or
 
 yarn add react-wistia-embed
+```
 Usage
 To use the WistiaEmbed component in your React application, import it from the react-wistia-embed package:
 
