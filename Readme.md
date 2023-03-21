@@ -12,15 +12,17 @@ npm install react-wistia-embed
 
 yarn add react-wistia-embed
 ```
-Usage
+## Usage
 To use the WistiaEmbed component in your React application, import it from the react-wistia-embed package:
 
-Copy code
+## Copy code
+```
 import WistiaEmbed from 'react-wistia-embed';
 
 function MyComponent() {
   return <WistiaEmbed hashedId="s3lqfi0zn7" />;
 }
+```
 The WistiaEmbed component takes several props that allow you to customize the embedded video:
 
 hashedId (required): the Wistia hashed ID of the video to embed
@@ -30,14 +32,16 @@ width (optional): the fixed width to apply to the video (only used when isRespon
 height (optional): the fixed height to apply to the video (only used when isResponsive is false)
 For example, to embed a video with fixed dimensions, you can use the following code:
 
-Copy code
+## Copy code
+```
 import WistiaEmbed from 'react-wistia-embed';
 
 function MyComponent() {
   return <WistiaEmbed hashedId="s3lqfi0zn7" isResponsive={false} width={640} height={480} />;
 }
-Contributing
+```
+## Contributing
 If you'd like to contribute to react-wistia-embed, feel free to open an issue or pull request on GitHub. We welcome any contributions or feedback!
 
-License
+## License
 react-wistia-embed is released under the MIT license. See LICENSE for details.
